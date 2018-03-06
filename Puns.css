@@ -1,0 +1,118 @@
+h1	
+	{
+	color: rosybrown;
+	font-family: "Verdana";
+	text-shadow: 3px 3px 10px rosybrown;
+	text-align: center;
+	font-size: 45px;
+	}
+	h2
+	{color: lightsteelblue;
+	font-family: "Lucida Sans Unicode";
+	text-align: center;
+	}
+	/*Css for the underline */
+	div h2 
+	{
+    border-bottom: 2px solid white;
+	}
+	/*The following is the css style info for the table*/
+	table 
+	{
+    font-family: arial, sans-serif;
+    color: rosybrown;
+	border-collapse: collapse;
+    width: 100%;
+	}
+	td, th 
+	{
+    /*the following colour is a very light grey*/
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+	}
+	tr:nth-child(even) 
+	{
+    background-color: #dddddd;
+	}
+	#Occasion 
+	{
+	text-align: center;
+	}
+	body
+	{
+	background-color: blanchedalmond;
+	}
+	p 
+	{
+	color: rosybrown;
+	font-family: "Lucida Sans Unicode";
+	}
+	/*the following is the css style info for the top navigation bar*/
+	.topnavigation
+	{
+	overflow: hidden;
+	background-color: white;
+	}
+	.topnavigation a 
+	{
+    float: left;
+    color: lightsteelblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	}
+	.topnavigation a:hover 
+	{
+    background-color: #ddd;
+    color: rosybrown;
+	}
+	.topnavigation a.active 
+	{
+    background-color: rosybrown;
+    color: white;
+	}
+	/*The following is the css style info for the column arrangement*/
+	.column 
+	{
+    float: left;
+    padding: 10px;
+	}
+	/*Two smaller columns*/
+	.column.side 
+	{
+    width: 25%;
+	}
+	/*One main bigger column of text*/
+	.column.middle 
+	{
+    width: 50%;
+	}
+	.row:after 
+	{
+    content: "";
+    display: table;
+    clear: both;
+	}
+	@media (max-width: 600px) 
+	{
+    .column.side, .column.middle 
+	{
+    width: 100%;
+    }
+	#MyPuns 	
+	{
+	width: 300px;
+	height: 300px;
+	}
+	#Bad		
+	{
+	width: 250px;
+	height: 250px;
+	}
+	#Crack		
+	{
+	width: 300px;
+	height: 300px;
+	}
